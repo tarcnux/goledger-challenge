@@ -128,6 +128,7 @@ Now that you have your network up and running with the FABCAR chaincode, you mus
 
 - Change the owner of that car to anyone you want
 	- query that car again, print your terminal, save it as `query2.jpg`
+	![query2.jpg](prints/query2.jpg)
 
 - Change the source code of the chaincode and add the optional attribute “Year" to the cars’ attributes
 
