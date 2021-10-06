@@ -83,6 +83,7 @@ Make sure everything is in order by checking the instantiated chaincodes on the 
     peer chaincode list --instantiated -C mychannel
 
 **Print your terminal and save it as `inst0.jpg`**
+![inst0.jpg](prints/inst0.jpg)
 
 ## FABCAR Chaincode
 
@@ -110,9 +111,10 @@ Now check the cars in the ledger:
 	peer chaincode query 
 		-C mychannel 
 		-n fabcar 
-		-c ‘{"Args":["queryAllCars"]}'
+		-c '{"Args":["queryAllCars"]}'
 
 **Print your terminal and save it as `query0.jpg`**
+![inst0.jpg](prints/query0.jpg)
 
 
 ## PART II
