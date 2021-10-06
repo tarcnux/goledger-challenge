@@ -114,7 +114,7 @@ Now check the cars in the ledger:
 		-c '{"Args":["queryAllCars"]}'
 
 **Print your terminal and save it as `query0.jpg`**
-![inst0.jpg](prints/query0.jpg)
+![query0.jpg](prints/query0.jpg)
 
 
 ## PART II
@@ -124,6 +124,7 @@ Now that you have your network up and running with the FABCAR chaincode, you mus
 
 - Query only the car identified by key `CAR0`
 	- print your terminal, save it as `query1.jpg`
+	![query1.jpg](prints/query1.jpg)
 
 - Change the owner of that car to anyone you want
 	- query that car again, print your terminal, save it as `query2.jpg`
