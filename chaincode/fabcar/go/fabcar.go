@@ -48,7 +48,7 @@ type Car struct {
 	Model  string `json:"model"`
 	Colour string `json:"colour"`
 	Owner  string `json:"owner"`
-	Year   string `json:"owner"`
+	Year   string `json:"year"`
 }
 
 /*
@@ -95,16 +95,16 @@ func (s *SmartContract) queryCar(APIstub shim.ChaincodeStubInterface, args []str
 
 func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
 	cars := []Car{
-		Car{Make: "Toyota", Model: "Prius", Colour: "blue", Owner: "Tomoko", Year: ""},
-		Car{Make: "Ford", Model: "Mustang", Colour: "red", Owner: "Brad", Year: ""},
-		Car{Make: "Hyundai", Model: "Tucson", Colour: "green", Owner: "Jin Soo", Year: ""},
-		Car{Make: "Volkswagen", Model: "Passat", Colour: "yellow", Owner: "Max", Year: ""},
-		Car{Make: "Tesla", Model: "S", Colour: "black", Owner: "Adriana", Year: ""},
-		Car{Make: "Peugeot", Model: "205", Colour: "purple", Owner: "Michel", Year: ""},
-		Car{Make: "Chery", Model: "S22L", Colour: "white", Owner: "Aarav", Year: ""},
-		Car{Make: "Fiat", Model: "Punto", Colour: "violet", Owner: "Pari", Year: ""},
-		Car{Make: "Tata", Model: "Nano", Colour: "indigo", Owner: "Valeria", Year: ""},
-		Car{Make: "Holden", Model: "Barina", Colour: "brown", Owner: "Shotaro", Year: ""},
+		Car{Make: "Toyota", Model: "Prius", Colour: "blue", Owner: "Tomoko", Year: "2020"},
+		Car{Make: "Ford", Model: "Mustang", Colour: "red", Owner: "Brad", Year: "2010"},
+		Car{Make: "Hyundai", Model: "Tucson", Colour: "green", Owner: "Jin Soo", Year: "2015"},
+		Car{Make: "Volkswagen", Model: "Passat", Colour: "yellow", Owner: "Max", Year: "2019"},
+		Car{Make: "Tesla", Model: "S", Colour: "black", Owner: "Adriana", Year: "2021"},
+		Car{Make: "Peugeot", Model: "205", Colour: "purple", Owner: "Michel", Year: "2010"},
+		Car{Make: "Chery", Model: "S22L", Colour: "white", Owner: "Aarav", Year: "2003"},
+		Car{Make: "Fiat", Model: "Punto", Colour: "violet", Owner: "Pari", Year: "2004"},
+		Car{Make: "Tata", Model: "Nano", Colour: "indigo", Owner: "Valeria", Year: "2005"},
+		Car{Make: "Holden", Model: "Barina", Colour: "brown", Owner: "Shotaro", Year: "2010"},
 	}
 
 	i := 0
