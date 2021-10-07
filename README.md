@@ -134,6 +134,8 @@ Now that you have your network up and running with the FABCAR chaincode, you mus
 
 - Install and upgrade your new chaincode in the network
 	- check the instantiated chaincodes, print your terminal, save it as `inst1.jpg`
+	![inst1_1.jpg](prints/inst1_1.jpg)
+	![inst1_2.jpg](prints/inst1_2.jpg)
 
 - Create one new car
 	- query your newly created car, print your terminal, save it as `query3.jpg`
