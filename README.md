@@ -137,8 +137,13 @@ Now that you have your network up and running with the FABCAR chaincode, you mus
 	![inst1_1.jpg](prints/inst1_1.jpg)
 	![inst1_2.jpg](prints/inst1_2.jpg)
 
+### After correcting the fabcar.go code
+	![inst1_0.png](prints/inst1_0.png)
+	![inst1_1.png](prints/inst1_1.png)
+
 - Create one new car
 	- query your newly created car, print your terminal, save it as `query3.jpg`
+	![query3.png](prints/quer3.png)
 
 - Create a folder `prints` in the root of the repository and put the images you generated inside it
 
